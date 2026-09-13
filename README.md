@@ -50,6 +50,8 @@ $banter-dial off
 | Weird | Dry twists and odd analogies |
 | Unhinged | Controlled absurdity; facts stay sober |
 
+Humor follows the user's language instead of translating English punchlines word for word. Simplified Chinese gets native, compact engineering talk across all three levels, with stronger Chinese internet-style contrast in Unhinged.
+
 Use it together with your task:
 
 ```text
@@ -85,7 +87,7 @@ Python is not required for normal use. Python 3.11+ is only needed to validate o
 
 Facts, calculations, code, commands, citations, permissions, uncertainty, safety boundaries, and whether the task is actually complete.
 
-High-stakes work automatically falls back to Grounded.
+High-stakes work temporarily falls back to Grounded, then restores the selected level when that segment ends.
 
 ## License
 

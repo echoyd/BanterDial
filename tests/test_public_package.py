@@ -15,7 +15,7 @@ class PublicPackageTests(unittest.TestCase):
     def test_plugin_manifest(self) -> None:
         manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
         self.assertEqual(manifest["name"], "banter-dial")
-        self.assertEqual(manifest["version"], "0.2.1")
+        self.assertEqual(manifest["version"], "0.2.2")
         self.assertEqual(manifest["skills"], "./skills/")
         self.assertTrue((PLUGIN_ROOT / "skills" / "banter-dial" / "SKILL.md").is_file())
 

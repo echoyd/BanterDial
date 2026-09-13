@@ -37,6 +37,23 @@ class SkillBudgetTests(unittest.TestCase):
         metadata = OPENAI_YAML_PATH.read_text(encoding="utf-8")
         self.assertRegex(metadata, r"(?m)^\s*allow_implicit_invocation:\s*false\s*$")
 
+    def test_simplified_chinese_has_native_three_level_guidance(self) -> None:
+        skill = SKILL_PATH.read_text(encoding="utf-8")
+        required = [
+            "For Simplified Chinese:",
+            "translation tone",
+            "mock-polite jab",
+            "Put the punchline last and stop.",
+            "Roast the code, bug, tool, process, or situation",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, skill)
+
+    def test_high_stakes_detour_restores_selected_level(self) -> None:
+        skill = SKILL_PATH.read_text(encoding="utf-8")
+        self.assertIn("temporarily use effective Grounded style", skill)
+        self.assertIn("automatically restore the selected level", skill)
+
 
 if __name__ == "__main__":
     unittest.main()
