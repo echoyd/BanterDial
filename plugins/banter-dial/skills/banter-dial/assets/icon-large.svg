@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="BanterDial logo">
+  <rect width="1024" height="1024" rx="220" fill="#111318"/>
+  <circle cx="512" cy="420" r="260" fill="#191D24" stroke="#343A45" stroke-width="54"/>
+  <path d="M293 523 A260 260 0 0 1 724 252" fill="none" stroke="#C7FF4A" stroke-width="54" stroke-linecap="round"/>
+  <path d="M512 420 L711 248" stroke="#4DD7FF" stroke-width="58" stroke-linecap="round"/>
+  <circle cx="512" cy="420" r="78" fill="#F7F8FA"/>
+  <circle cx="512" cy="420" r="34" fill="#111318"/>
+  <circle cx="279" cy="555" r="28" fill="#6F7785"/>
+  <circle cx="512" cy="147" r="28" fill="#6F7785"/>
+  <circle cx="748" cy="270" r="28" fill="#4DD7FF"/>
+  <text x="512" y="820" text-anchor="middle" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-3">BanterDial</text>
+  <text x="512" y="890" text-anchor="middle" fill="#A8AFBB" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="500" letter-spacing="5">TURN UP THE WEIRD</text>
+</svg>

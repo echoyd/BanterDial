@@ -1,0 +1,44 @@
+{
+  "name": "banter-dial",
+  "version": "0.2.1",
+  "description": "Switch Codex between three response vibes without changing the facts, code, or rigor.",
+  "author": {
+    "name": "echoyd",
+    "url": "https://github.com/echoyd"
+  },
+  "homepage": "https://github.com/echoyd/BanterDial",
+  "repository": "https://github.com/echoyd/BanterDial",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skill",
+    "personality",
+    "writing-style",
+    "vibe-coding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BanterDial",
+    "shortDescription": "One command. Three vibes. Same rigor.",
+    "longDescription": "Turn Codex from Grounded to Weird to Unhinged while keeping facts, code, safety, and task quality intact.",
+    "developerName": "echoyd",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/echoyd/BanterDial",
+    "defaultPrompt": [
+      "$banter-dial",
+      "$banter-dial grounded",
+      "$banter-dial unhinged"
+    ],
+    "brandColor": "#B7FF3C",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/mode-comparison.png",
+      "./assets/chaos-gremlin.png",
+      "./assets/brand-board.png"
+    ]
+  }
+}

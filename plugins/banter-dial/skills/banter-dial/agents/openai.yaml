@@ -1,0 +1,10 @@
+interface:
+  display_name: "BanterDial"
+  short_description: "One command. Three vibes. Same rigor."
+  icon_small: "./assets/icon-small.png"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#C7FF4A"
+  default_prompt: "Use $banter-dial for a concise Weird response style."
+
+policy:
+  allow_implicit_invocation: false
